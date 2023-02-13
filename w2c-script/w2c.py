@@ -17,7 +17,7 @@ for employee in employee_data[1:]:
     c.setFont('Helvetica', 10)
 
     
-    # Cook the spaghetti for the employee's address
+    # Employee's address
     addressSplit = employee[40].strip().split(',')
     if len(addressSplit) > 3:
         c.drawString(319, 560, addressSplit[0] + "," + addressSplit[1]) #Box i Employee's address (street, apartment)
@@ -372,5 +372,4 @@ for employee in employee_data[1:]:
     outputStream = open("w2c_form_"+ employee[0] + "_" + employee[1] + ".pdf", "wb")
     output.write(outputStream)
 
-    # Remove usb safely
     outputStream.close()
