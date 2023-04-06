@@ -10,6 +10,6 @@
 
 6. Write pip install PyPDF2 and press enter
 
-5. Write pip install reportlab and press enter
+7. Write pip install reportlab and press enter
 
-6. Write py w2c.py and press enter
+8. Write py w2c.py and press enter
